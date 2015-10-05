@@ -9,6 +9,7 @@
 #include "content/public/browser/web_contents.h"
 #include "grit/xwalk_strings.h"
 #include "third_party/skia/include/core/SkPaint.h"
+#include "third_party/skia/include/core/SkPath.h"
 #include "ui/base/l10n/l10n_util.h"
 #include "ui/views/controls/webview/webview.h"
 #include "ui/gfx/canvas.h"
