@@ -336,6 +336,9 @@ public class WifiDirect extends XWalkExtensionWithActivityStateListener {
 
     @Override
     public void onActivityStateChange(Activity activity, int newState) {
+        if (mReceiver == null) {
+            return;
+        }
         switch (newState) {
             case ActivityState.RESUMED:
                 mActivity = activity;
